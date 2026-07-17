@@ -116,3 +116,27 @@ print(inst)
 #for del() delete the item from the list by using index number
 del(inst[2])  #deleting the item from the list at index 2
 print(inst)
+
+
+
+#list items print buy loop
+print("showing items by using  for loop ")
+colou=["red","yello","green","black"]
+for i in colou:
+    print(i)
+
+
+#enter the items in list using  while loop
+print("append items using while loop ")
+
+list_items = ["Book", "Pen", "Notebook"]
+print(f"before appending items in list {list_items} ")
+while True:
+    item = input("if you want to enter items in list enter item's value otherwise type 'done' to stop: ")
+
+    if item.lower() == "done":
+        break
+
+    list_items.append(item)
+
+print("appended List:", list_items)
