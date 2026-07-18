@@ -1,5 +1,5 @@
 #list in python
-
+print("--------------------")
 """
     list is ordered collection of items which can be of any data type.
     list is mutable which means we can change the items in the list.
@@ -16,17 +16,20 @@ print("listof name")
 print(name)
 print(type(name))
 
+print("--------------------")
 #for indexing the list we use index number which starts from 0
 print("indexing the list")
 print(name[0])  # prints "hassan"   
 print(name[1])  # prints "ali"
 print(name[2])  # prints "ahmed"
 
+print("--------------------")
 #for mutating the list we can change the value of the list by using index number
 print("mutating the list")
 name[0]="saqib"  #in which adding the new value in the list by using index number
 print(name)
 
+print("--------------------")
 #for slicing the list we use slice operator which is [start:stop:step]
 print("slicing the list")
 print(name[0:2])  # prints ["hassan", "ali"]
@@ -34,16 +37,19 @@ print(name[1:3])  # prints ["ali", "ahmed"]
 print(name[0:4:2])  # prints ["hassan", "ahmed"]
 
 
+print("--------------------")
 print("reverse the list")
 print(name[::-1])
 
 
+print("--------------------")
 #also store the different data types in the list like string, integer, float, boolean, etc.
 data=["hassan", 20, 3.14, True]
 print("list of different data types")
 print(data)
 
 
+print("--------------------")
 #list methods in python
 """
   for adding the new item in the list we use append() method  like name.append("new item")
@@ -63,28 +69,34 @@ print(data)
 """
 
 
+print("--------------------")
 #for adding the new item in the list we use append() method
 ages=[20, 21, 22, 23]
 print(ages)
 ages.append("40")
 print(ages)
 
+print("--------------------")
 #for removing the item from the list we use remove() method
 ages.remove(21)
 print(ages)
 
+print("--------------------")
 #for popping the item from the list we use pop() method
 ages.pop()  # removes the last item from the list
 print(ages)
 
+print("--------------------")
 #for sorting the list we use sort() method
 ages.sort() #for ascending order
 print(ages)
 
+print("--------------------")
 ages.sort(reverse=True) #for descending order
 print(ages) 
 
 
+print("--------------------")
 #for copying the list we use copy() method
 """
    copy wala method hum tab use kartay hain jab orignal list ko change nahi karna 
@@ -96,9 +108,11 @@ ages_copy=ages.copy()
 print(ages_copy)
 
 
+print("--------------------")
 #for length finding of the list  items use len()
 print(len(ages))
 
+print("--------------------")
 #for  extend the list  in which we join the two lists
 
 list1=[1,2,3,4,5,6]
@@ -106,6 +120,7 @@ list2=[7,8,9]
 list1.extend(list2)
 print(list1)
 
+print("--------------------")
 #for inserting the items in existing list insert(index, item) method use hota hay
 
 inst=["hassan", "ali", "ahmed", "hussain"]
@@ -113,12 +128,14 @@ inst.insert(2, "saqib")  #inserting the new item in the list at index 2
 print(inst) 
 
 
+print("--------------------")
 #for del() delete the item from the list by using index number
 del(inst[2])  #deleting the item from the list at index 2
 print(inst)
 
 
 
+print("--------------------")
 #list items print buy loop
 print("showing items by using  for loop ")
 colou=["red","yello","green","black"]
@@ -126,9 +143,11 @@ for i in colou:
     print(i)
 
 
+print("--------------------")
 #enter the items in list using  while loop
 print("append items using while loop ")
 
+print("--------------------")
 list_items = ["Book", "Pen", "Notebook"]
 print(f"before appending items in list {list_items} ")
 while True:
@@ -140,3 +159,4 @@ while True:
     list_items.append(item)
 
 print("appended List:", list_items)
+print("--------------------")
