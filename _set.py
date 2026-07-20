@@ -32,3 +32,32 @@ print("----------------")
 fruits = {"Apple", "Banana", "Mango"}
 for x in fruits:
     print(x)
+
+print("----------------")
+#Set Operations
+print("Set Operations ")
+print("Union Combines two sets.")
+A = {1,2,3}
+B = {3,4,5}
+print(A | B)
+# or other method to take unoin of two sets 
+print(A.union(B))
+
+
+print("----------------")
+print("Intersection Common elements.")
+A = {1,2,3}
+B = {2,3,4}
+print(A & B)
+# or other method to take intersection of two sets 
+print(A.intersection(B))
+
+
+print("----------------")
+print("Difference Elements present in A but not in B.")
+A = {1,2,3}
+B = {2,3,4}
+print(A - B)
+# or other method to take difference  of two sets 
+print(A.difference(B))
+
