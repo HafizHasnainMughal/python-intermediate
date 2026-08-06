@@ -66,3 +66,46 @@ print(data1['subjects'])
 #  tu error nahi aye ga or none return kare ga .
 print(data1.get("name"))
 print(data1.get("cast")) #ya key exist nahi karti is waja say none retrn karay ga
+
+# by using for loop in dictionary
+
+print("-----------------")
+data1 = {
+    "name":"Ali",
+    "age":20,
+    "marks":90.5,
+    "pass":True,
+    "subjects":["Math","Physics"],
+    "address":{
+        "city":"Lahore",
+        "country":"Pakistan"
+    }
+}
+for key,values in data1.items():
+    print(key," : ",values)
+
+print("-----------------")
+print("list in a dictionary ")
+
+ali={
+    "class":"BSCS",
+    "marks":[90,80,70,60,50]
+}
+print(ali["marks"])
+
+print("-----------------")
+print("dictionary in a list")
+students=[
+    {"name":"Ali","age":20},
+    {"name":"Ahmad","age":22}
+]
+print(students[1]["age"]) #[]  first may dictionary index likhtay hain secong may [] kay ko
+
+print("-----------------")
+print("dictionary in a dictionary")
+data2={
+    "student1": {"name":"Ali","age":20},
+    "student2": {"name":"Ahmad","age":22}
+}
+
+print(data2["student1"]["age"])
