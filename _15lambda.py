@@ -37,11 +37,11 @@ print(check_ag(23))
 
 print("-----------------")
 print("lambda function in function in python ")
-
 def my_function(n):
     return lambda a : a * n
 lmd=my_function(2)
 print(lmd(5))
+
 
 
 
