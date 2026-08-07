@@ -19,13 +19,15 @@ store=[
     ]
 print(store)
 print("I want to increase the store items price by 10%")
-price=lambda item:(item[0],item[1],item[2]*1.10)
-print("for converting the  floting number to int increse the number by 10% and convert it to int")
-
+price=lambda item:(item[0],item[1],int(item[2]*1.10))
 new_price=list(map(price,store))
 print(new_price)
 
-
-
+print("---------------")
+# list kay number ka square by using map function
+print("taking square of list items by using map")
+numbers=[1,2,3,4,5,6,7,8,9]
+square=lambda x:x*x
+print(result:=list(map(square,numbers)))
 
 
