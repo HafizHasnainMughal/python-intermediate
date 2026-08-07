@@ -25,5 +25,4 @@ print(f"your liked food list are  {food} ")
     Note:
         Walrus operator  using opposite sign in this statement Normaly used =='no'
         but  walrus  operator !='no'
-
 '''
