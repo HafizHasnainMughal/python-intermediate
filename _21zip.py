@@ -2,6 +2,8 @@
 '''
     zip() function is used to connrct two or more iterable(list,tuple,set etc)
     together ,paring the elements as tuples,for each elements
+
+    zip() multiple lists ke same-position wale elements ko aik saath jor deta hai.
 '''
 
 print("-------------------")
