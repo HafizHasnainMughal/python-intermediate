@@ -1,0 +1,12 @@
+new student -----
+
+Name: Ali
+Age: 23
+City: Lahore
+
+new student ------
+
+Name: Hassan
+Age: 22
+City: Okara
+
