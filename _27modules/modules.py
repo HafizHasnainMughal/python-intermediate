@@ -25,3 +25,15 @@ print(subtract(10, 5))
 print(multiply(10, 5))
 
 print("-----------------------")
+import student
+
+student.student_info(
+    "hassan".title(),
+    21,
+    "Computer Science"
+)
+marks = [80, 75, 90, 65, 85]
+average = student.calculate_average(marks)
+print("Average:", average)
+result = student.check_result(average)
+print("Result:", result)
