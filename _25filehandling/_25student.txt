@@ -10,3 +10,9 @@ Name: Hassan
 Age: 22
 City: Okara
 
+New Student -----
+
+Name: Mughal
+Age: 33
+City: Islamabad
+
