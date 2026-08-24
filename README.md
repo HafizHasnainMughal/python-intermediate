@@ -28,7 +28,7 @@ This repository contains dedicated code examples covering the following key Pyth
 16. **Exception Handling** (`_25exception.py`)
 17. **File Handling & I/O** (`_26file_handling.py`)
 18. **Modules & Code Reusability** (`_27modules.py`, `calculator.py`, `student.py`)
-
+19. **Decorators & First-Class Functions** (`_28decorator.py`)
 ---
 
 ## 🛠 Detailed Overview
@@ -133,3 +133,8 @@ This repository contains dedicated code examples covering the following key Pyth
   - `calculator.py`: Basic mathematical helper functions (`addition`, `subtract`, `multiply`).
   - `student.py`: Academic helper utilities (`student_info`, `calculate_average`, `check_result`).
 - **Module Types Covered:** Built-in/Standard Library, User-defined modules, and Third-party packages.
+
+### 19. Python Decorators (`_28decorator.py`)
+- **Key Concepts:** Modifying or enhancing the behavior of existing functions dynamically without altering their core source code.
+- **Prerequisites Covered:** Treating functions as first-class objects, assigning functions to variables, passing functions as parameters, nested inner functions, and returning functions.
+- **Syntax Covered:** Wrapper functions and explicit syntactic sugar using `@decorator_name`.
