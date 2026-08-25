@@ -39,6 +39,8 @@ print("----------------------")
 '''
     syntex:
         list=[expression if / else for item in iterabel ]
+         OR
+        [expression_if_true if condition else expression_if_false for item in iterable]
 '''
 student_marks=[23,45,65,32,54,21,54,87]
 after_filter=[z if z>=33  else 'fail' for z in student_marks]
