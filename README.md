@@ -29,6 +29,9 @@ This repository contains dedicated code examples covering the following key Pyth
 17. **File Handling & I/O** (`_26file_handling.py`)
 18. **Modules & Code Reusability** (`_27modules.py`, `calculator.py`, `student.py`)
 19. **Decorators & First-Class Functions** (`_28decorator.py`)
+20. **List Comprehension** (`_29list_comprehension.py`)
+21. **Dictionary Comprehension** (`_30dict_comprehension.py`)
+
 ---
 
 ## 🛠 Detailed Overview
@@ -135,6 +138,17 @@ This repository contains dedicated code examples covering the following key Pyth
 - **Module Types Covered:** Built-in/Standard Library, User-defined modules, and Third-party packages.
 
 ### 19. Python Decorators (`_28decorator.py`)
+
 - **Key Concepts:** Modifying or enhancing the behavior of existing functions dynamically without altering their core source code.
 - **Prerequisites Covered:** Treating functions as first-class objects, assigning functions to variables, passing functions as parameters, nested inner functions, and returning functions.
 - **Syntax Covered:** Wrapper functions and explicit syntactic sugar using `@decorator_name`.
+
+### 20. List Comprehension (`_29list_comprehension.py`)
+
+- **Key Concepts:** Concise syntax for creating new lists based on existing iterables with minimal boilerplate.
+- **Features Covered:** Standard list expressions, filtering items using `if` conditions, and inline transformations using `if-else` ternary operations.
+
+### 21. Dictionary Comprehension (`_30dict_comprehension.py`)
+
+- **Key Concepts:** Generating dictionaries dynamically using expressions mapped over iterable key-value pairs.
+- **Features Covered:** Key-value calculations, conditional key filtering (`if`), inline ternary mapping (`if-else`), and external function integration for complex value processing.
